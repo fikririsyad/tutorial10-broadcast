@@ -14,3 +14,15 @@ How to run:
 - For client, run `cargo run --bin client`
 
 First, we run a server and three clients that will connect to the same port as the server. The server will print a message if a client has successfully connected. When we enter a message in the client's terminal, the message will be sent to the server and the server will broadcast it to all clients that are connected.
+
+![](images/img2.png)
+
+Modify the port to be 8080 in the client.
+
+![](images/img3.png)
+
+Modify the port to be 8080 in the server.
+
+![](images/img4.png)
+
+The programs run properly.
